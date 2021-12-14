@@ -5,7 +5,7 @@
   --accent-color: #2196f3;
   --button-color: #f5f4fa;
 }
-/*header******/
+/*header******
 
 body {
   font-family: Roboto, sans-serif;
@@ -150,7 +150,7 @@ h5 {
   fill: var(--accent-color);
 }
 
-/***Tabs*/
+/***Tabs*
 .portfolio {
   margin-top: 94px;
 }
@@ -190,7 +190,7 @@ h5 {
   color: var(--button-color);
 }
 
-/*IMG*************/
+/*IMG*************
 .container-list {
   max-width: 1200px;
   padding-left: 15px;
@@ -275,7 +275,7 @@ h5 {
   color: var(--text-p-color);
 }
 
-/*Футер**********/
+/*Футер**********
 .footer {
   background: #2f303a;
   height: 252px;
@@ -339,7 +339,7 @@ h5 {
   text-decoration: none;
 }
 
-/*Иконки**********/
+/*Иконки**********
 
 .join-title {
   font-weight: bold;
