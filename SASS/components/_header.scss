@@ -1,48 +1,63 @@
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   align-items: center;
+  width: 1600px;
 }
 .container-header {
   display: flex;
-  width: 1200px;
   height: 80px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
+  &__link {
+    font-family: Raleway;
+    margin-right: 93px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+  }
+  &__logo {
+    color: var(--accent-color);
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 500;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  &__item {
+    position: relative;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__contacts {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 0;
+  }
 }
 
-.container-header__link {
-  font-family: Raleway;
-  margin-right: 93px;
-  font-style: normal;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-}
-.container-header__logo {
-  color: var(--accent-color);
-}
 .logo {
   color: var(--first-text-color);
 }
 .list {
   list-style: none;
-  margin: 0;
-}
-.container-header__nav {
-  display: flex;
-  align-items: center;
 }
 
-.container-header__item {
-  text-decoration: none;
-  margin-right: 50px;
-  font-weight: 500;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 .link {
   display: list-item;
   text-decoration: none;
@@ -55,9 +70,6 @@
     color: var(--accent-color);
   }
 }
-.container-header__item {
-  position: relative;
-}
 
 .container-header__item .active::after {
   content: ' ';
@@ -68,20 +80,6 @@
   bottom: 0;
   background: #2196f3;
   border-radius: 2px;
-}
-
-.container-header__list {
-  display: flex;
-  align-items: center;
-}
-
-.container-header__contacts {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding: 0;
 }
 
 .container-header__link-svg {
